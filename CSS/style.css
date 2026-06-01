@@ -1,4 +1,15 @@
 p {
-    color: red;
-    font-size: 20px;
+  color: red;
+  font-size: 20px;
+}
+
+h1 {
+  color: aqua;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 {
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
