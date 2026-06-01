@@ -1,65 +1,152 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rafael</title>
-  </head>
 
-  <body>
-    <header>
-      <h1>Rafael Luiz Kraisch</h1>
-      <nav><!--  -->
-        <!--seção de navegação do site-->
-        <ul>
-          <!--lista não ordenada para links no nosso site-->
-          <li><a href="#sobremim">Sobre mim</a></li>
-          <li><a href="#projetos">Projetos</a></li>
-          <li><a href="#contato">Contato</a></li>
-          <li><a href="https://google.com.br/" target="_blank">Google</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section id="sobremim">
-      <h2>Sobre mim</h2>
-      <img
-        src="https://fastcompanybrasil.com/wp-content/uploads/2025/05/quer-ser-mais-feliz-confira-5habitos-para-adotar-ainda-hoje.jpg"
-        alt="Imagem de perfil"
-        style="width: 500px; height: auto"
-        title="Foto de perfil"
-      />
-      <article>
-        <p>
-          Olá, me chamo Rafael. Sou um engenheiro civil que esta migrando para
-          TI.
-        </p>
-      </article>
-      <aside>
-        <h3>Habilidades</h3>
-        <ul>
-          <li>Autocad</li>
-          <li>Sketchup</li>
-        </ul>
-      </aside>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rafael</title>
+</head>
+
+<body>
+  <header>
+    <h1>Rafael Luiz Kraisch</h1>
+    <nav>
+      <!--seção de navegação do site-->
+      <ul>
+        <!--lista não ordenada para links no nosso site-->
+        <li><a href="#sobremim">Sobre mim</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="https://google.com.br/" target="_blank">Google</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="sobremim">
+    <h2>Sobre mim</h2>
+    <img
+      src="https://fastcompanybrasil.com/wp-content/uploads/2025/05/quer-ser-mais-feliz-confira-5habitos-para-adotar-ainda-hoje.jpg"
+      alt="Imagem de perfil" style="width: 500px; height: auto" title="Foto de perfil" />
+    <article>
+      <p>
+        Olá, me chamo Rafael. Sou um engenheiro civil que esta migrando para
+        TI.
+      </p>
+    </article>
+    <aside>
+      <h3>Habilidades</h3>
+      <ul>
+        <li>Autocad</li>
+        <li>Sketchup</li>
+      </ul>
+    </aside>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <article>
+      <h3>Portfólio</h3>
+      <p>Este foi meu primeiro side estudando front-end</p>
+    </article>
+  </section>
+
+  <section id="habilidades">
+
+    <h2>Habilidade e tecnologia</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>tecnologia</th>
+          <th>nivel</th>
+          <th>descrição</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td>HTML</td>
+          <td>Iniciante</td>
+          <td>Capaz de construir estrutura de paginas web semanticas e responsáveis</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td>CSS</td>
+          <td>Intermediário</td>
+          <td>Experiencia com flexbox</td>
+        </tr>
+      </tbody>
+
+      <tbody>
+        <tr>
+          <td>Javascript</td>
+          <td>Básico</td>
+          <td>Desenvolvimento de scripts do lado do cliente para instruções</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+  </section>
+
+  <footer>
+    <p>Direitos reservados</p>
+    <section id="contato">
+      <h2>Contatos</h2>
+      <p>Entre em contato</p>
+      <address>
+        E-mail: <a href="mailto:rafael@atitude3d.com">rafael@atitude3d.com</a>
+
+        <br />
+
+        Whatsaspp: <a href="+5547984258320">(47) 98425-8320</a>
+      </address>
+      <form action="">
+
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" required>
+
+        <br>
+
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="telefone">Telefone: </label>
+        <input type="telefone" id="telefone" name="telefone">
+
+        <br>
+
+        <label for="assunto">Assunto: </label>
+
+        <select name="assunto" id="assunto">
+          <option value="orcamento">Orçamento</option>
+          <option value="duvida">Dúvida</option>
+          <option value="outro">Outro</option>
+        </select>
+
+        <br>
+
+        <label for="mensagem">Mensagem: </label>
+        <textarea name="mensagem" id="mensagem" cols="50" rows="5" required></textarea>
+
+        <br>
+
+        <input type="checkbox" id="inscricao" name="inscricao">
+        <label for="inscricao">Deseja receber newslayer?</label>
+
+        <br>
+
+        <input type="submit" value="Enviar mensagem">
+
+      </form>
+
+
     </section>
-    <section id="projetos">
-      <h2>Projetos</h2>
-      <article>
-        <h3>Portfólio</h3>
-        <p>Este foi meu primeiro side estudando front-end</p>
-      </article>
-    </section>
-    <footer>
-      <p>Direitos reservados</p>
-      <section id="contato">
-        <h2>Contatos</h2>
-        <p>Entre em contato</p>
-        <address>
-          E-mail: <a href="mailto:rafael@atitude3d.com">rafael@atitude3d.com</a>
-          <br />
-          Whatsaspp: <a href="+5547984258320">(47) 98425-8320</a>
-        </address>
-      </section>
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>
