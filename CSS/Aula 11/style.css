@@ -1,0 +1,19 @@
+.displayBlock {
+  display: block;
+  height: 200px;
+  background-color: blue;
+  border: 1px solid #000;
+}
+
+.displayInline {
+  display: inline;
+  background-color: rgb(0, 255, 76);
+  border: 1px solid #000;
+}
+
+.displayInlineBlock {
+  display: inline-block;
+  background-color: rgb(217, 255, 0);
+  border: 1px solid #000;
+  margin: 30px;
+}

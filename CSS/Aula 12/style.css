@@ -1,0 +1,19 @@
+body {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.imagemFlutuante {
+  float: left;
+  width: 200px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.subtitulo {
+  clear: both;
+}
+
+p {
+  text-align: justify;
+}

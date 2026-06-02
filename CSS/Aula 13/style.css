@@ -1,0 +1,9 @@
+.header {
+  background-color: yellow;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 10px;
+  border: solid 1px #000;
+  padding: 10px;
+  font-size: 20px;
+}
