@@ -1,0 +1,54 @@
+/* Reseta margens padrões e define a fonte */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #1a0033; /* Cor de fundo roxa escura externa */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Cria o espaçamento vertical entre os blocos */
+}
+
+/* Estilização geral estilizar e centralizar o texto*/
+.cabecalho,
+.menu,
+.colunaEsquerda,
+.colunaDireita,
+.conteudo,
+.rodape {
+  display: flex; /* 1. Transforma o quadrado em um container Flex */
+  color: #000;
+  font-size: 24px;
+  border: 15px solid #e9ecef;
+  border-radius: 4px;
+  text-transform: capitalize;
+  background-color: #e9ecef;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  text-align: center; /* Garante que o texto quebre e permaneça centralizado */
+}
+
+.cabecalho {
+  position: 20px;
+  grid-column: 1/-1;
+  height: 50px;
+}
+.menu {
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 10px;
+}
+.colunaEsquerda,
+.colunaDireita {
+  grid-column: 1fr;
+  min-height: 200px; /* Garante uma altura para o bloco central */
+}
+.conteudo {
+  grid-column: 3fr;
+}
+
+.rodape {
+  height: 50px;
+}
