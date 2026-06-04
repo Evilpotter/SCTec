@@ -1,0 +1,36 @@
+.container {
+  background-color: #f7f5f2;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 10px;
+  display: flex;
+  height: 500px; /* altura do contêiner */
+  justify-content: center; /* alinha horizontalmente */
+  align-items: center; /* alinha verticalmente */
+  flex-wrap: wrap; /* permite que os itens quebrem para a próxima linha */
+  gap: 10px; /* espaço entre os itens */
+}
+
+.box {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #000;
+  text-align: center;
+  display: flex;
+  justify-content: center; /* alinha horizontalmente */
+  align-items: center; /* alinha verticalmente */
+  flex-grow: 1; /* permite que as caixas cresçam para preencher o espaço disponível */
+}
+
+#box1 {
+  background-color: #ffb4a2; /* suave pêssego */
+}
+
+#box2 {
+  background-color: #f7d794; /* amarelo suave */
+}
+
+#box3 {
+  background-color: #9ad1d4; /* verde-água suave */
+}

@@ -1,0 +1,23 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 1fr;
+  background-color: black;
+  position: 20px;
+}
+
+.header {
+  background-color: blanchedalmond;
+  position: 20px;
+  grid-column: 1/-1;
+}
+
+.barralateral {
+  background-color: aqua;
+  position: 20px;
+}
+
+.content {
+  background-color: brown;
+  position: 20px;
+}

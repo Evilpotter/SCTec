@@ -7,3 +7,27 @@
   padding: 10px;
   font-size: 20px;
 }
+
+.relativo {
+  background-color: blueviolet;
+  position: relative;
+  height: 100px;
+}
+
+.absoluto {
+  background-color: red;
+  position: absolute;
+  height: 50px;
+  bottom: 0px;
+  right: 10px;
+  width: 50px;
+}
+
+.fixo {
+  background-color: aquamarine;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 20px;
+  right: 20px;
+}
